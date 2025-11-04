@@ -1,7 +1,7 @@
 
 ## Introduction :
 
-In the repository shared down below they are two folders namely **ASR** and **SP** in which the tasks of Automatic Speech Recognition and Signal Processing have been carried out respectively. The _SP_ folder has a folder of _outpus_ where all the graphs are stored in the format of _.png_, all the inferences are written in the Readme file for both Segments of _ASR_ and _SP_.
+In the repository shared down below they are two folders namely **ASR** and **SP** in which the tasks of Automatic Speech Recognition and Signal Processing have been carried out respectively. The _SP_ folder has a folder of _outputs_ where all the graphs are stored in the format of _.png_, all the inferences are written in the Readme file for both Segments of _ASR_ and _SP_.
 
 ## ASR(Automatic Speech Recognition):
 
@@ -9,7 +9,7 @@ The python script _main.py_ is the core logic of computing the WER(Word Error Ra
 
 > Logic :
 
-- I have used pandas and given jiwer python libraries for ASR evaluation.
+- I have used pandas and given _jiwer_ python libraries for ASR evaluation.
 - As, per the given inputs and using numpy I have had colums of _"Reference"_ and _"ASR Output"_ in a data frame.
 - Combined the entire data input of each column of dataframe using _.join_ of numpy.
 - By the help of imported library, we could use the predefined functions of _wer_ and _cer_ to compute Word Error Rate and Character Error Rate repectively.
@@ -63,7 +63,7 @@ Evaluating both the _.tsv_ files we've analyzed two(2) ASR Systems.
 ## Signal Processing Tasks :
 
 Have used _librosa_ python library for processing and reading of the given audio signal.
-Then, computed STFT on the same using the _window length_ to be 1024 and overlapping samples to be 256- also refrerred to as _hop length_.
+Then, computed STFT on the same using the _window length_ to be 1024 and overlapping samples to be 256, also refrerred to as _hop length_.
 Next, plotted and observed the RMS Energy on a decibel scale, along diffrent frames.
 Atlast, plotted the given input speech and have marked the vertical lines corresponding to the _.tsv_ file.
 
@@ -88,4 +88,4 @@ Atlast, plotted the given input speech and have marked the vertical lines corres
 - There by the temporal characteristics could be clearly observed from the graph.
 - No markable _dc offset_ is observed and the waveform is centered around zero(0).
 
-The above are the inferences which are made to the given audio input waveform by generating _Spectrogram_, _RMS Energy_ and _waveform_ correlated with the ASR output.
+The above are the inferences which are made to the given audio input waveform by generating _Spectrogram_, _RMS Energy_ and _waveform_ correlated with the ASR output which are stored in _SP/Outputs_.
