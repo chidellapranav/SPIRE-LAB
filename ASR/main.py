@@ -36,3 +36,7 @@ wer2, cer2 = evaluate_asr(asr2)
 print(f"ASR System 1 - WER: {wer1:.4f}, CER: {cer1:.4f}")
 print(f"ASR System 2 - WER: {wer2:.4f}, CER: {cer2:.4f}")
 
+str = """ASR System 1 - WER: {wer1:.4f}, CER: {cer1:.4f}
+ASR System 2 - WER: {wer2:.4f}, CER: {cer2:.4f}"""
+with open("asr_evaluation_results.txt", "w") as f:
+    f.write(str.format(wer1=wer1, cer1=cer1, wer2=wer2, cer2=cer2))

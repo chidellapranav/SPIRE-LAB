@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-
 ## Introduction :
 
-In the repository shared down below they are two folders namely **ASR** and **SP** in which the tasks of Automatic Speech Recognition and Signal Processing have been carried out respectively. The _SP_ folder has a folder of _outpus_ where all the graphs are stored in the format of _.png_, all the inferences are written in the Readme file for both Segments of _ASR_ and _SP_.
+In the repository shared down below they are two folders namely **ASR** and **SP** in which the tasks of Automatic Speech Recognition and Signal Processing have been carried out respectively. The _SP_ folder has a folder of _outputs_ where all the graphs are stored in the format of _.png_, all the inferences are written in the Readme file for both Segments of _ASR_ and _SP_.
 
 ## ASR(Automatic Speech Recognition):
 
@@ -15,6 +13,7 @@ The python script _main.py_ is the core logic of computing the WER(Word Error Ra
 - Combined the entire data input of each column of dataframe using _.join_ of numpy.
 - By the help of imported library, we could use the predefined functions of _wer_ and _cer_ to compute Word Error Rate and Character Error Rate repectively.
 - Printed the outputs of both the _.tsv_ files and have compared the same.
+- Have generated the textfiles of both the refrence and groundtruth, the results of WER and CER of the both ASR Systems,(ASR/Outputs).
 
 > Instructions :
 
@@ -89,4 +88,4 @@ Atlast, plotted the given input speech and have marked the vertical lines corres
 - There by the temporal characteristics could be clearly observed from the graph.
 - No markable _dc offset_ is observed and the waveform is centered around zero(0).
 
-The above are the inferences which are made to the given audio input waveform by generating _Spectrogram_, _RMS Energy_ and _waveform_ correlated with the ASR output.
+The above are the inferences which are made to the given audio input waveform by generating _Spectrogram_, _RMS Energy_ and _waveform_ correlated with the ASR output which are stored in _SP/Outputs_.
