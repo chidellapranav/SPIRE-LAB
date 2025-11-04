@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 650bfeee8ad34fee057c7c3f6a12a91a5fda32db
 ## Introduction :
 
 In the repository shared down below they are two folders namely **ASR** and **SP** in which the tasks of Automatic Speech Recognition and Signal Processing have been carried out respectively. The _SP_ folder has a folder of _outputs_ where all the graphs are stored in the format of _.png_, all the inferences are written in the Readme file for both Segments of _ASR_ and _SP_.
