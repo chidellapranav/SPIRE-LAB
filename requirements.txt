@@ -1,0 +1,5 @@
+jiwer
+pandas
+numpy
+librosa
+matplotlib
