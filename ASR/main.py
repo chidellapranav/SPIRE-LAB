@@ -17,7 +17,7 @@ def evaluate_asr(tsv_file):
     df["ASR Output"] = df["ASR Output"].str.lower().str.strip()
     df["Reference"] = df["Reference"].str.lower().str.strip()
 
-    # Combine all ASR outputs and references
+    # Comb all ASR outputs and references
     asr_full = " ".join(df["ASR Output"])
     ref_full = " ".join(df["Reference"])
 
